@@ -1,5 +1,5 @@
 # docker-dnsmasq
-# VERSION 0.0.2
+# VERSION 0.1.0
 
 FROM ubuntu:14.04
 MAINTAINER jiasir <jiasir@icloud.com>
