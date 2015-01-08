@@ -6,7 +6,7 @@ A docerized dnsmasq. The autobuild Docker Hub repo: jiasir/dnsmasq.
 ```
 git clone https://github.com/spops/docker-dnsmasq.git
 ```
-* Edit your dns recode, It is a hosts form.
+* Edit your dns record, It is a hosts form.
 ```
 vi banner_add_hosts
 ```
