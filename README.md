@@ -15,3 +15,7 @@ vi banner_add_hosts
 docker build -t spops/docker-dnsmasq:0.0.1 .
 docker run -d -p 53:53 spops/docker-dnsmasq:0.0.1
 ```
+* Or using Docker Hub.
+```
+docker run -d -p 53:53 --volume /usr/local/etc/ jiasir/dnsmasq
+```
