@@ -13,11 +13,11 @@ vi banner_add_hosts
 * Build and Run.
 ```
 docker build -t spops/docker-dnsmasq:0.0.1 .
-docker run -d -p 53:53 spops/docker-dnsmasq:0.0.1
+docker run -d -p 53:53 -p 53:53/udp spops/docker-dnsmasq:0.0.1
 ```
 * Or using Docker Hub.
 ```
-docker run -d -p 53:53 jiasir/dnsmasq
+docker run -d -p 53:53 -p 53:53/udp jiasir/dnsmasq
 ```
 * Using another container to change the DNS records and reload the process.
 ```
