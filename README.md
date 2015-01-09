@@ -1,6 +1,5 @@
 # docker-dnsmasq
-A docerized dnsmasq. The autobuild Docker Hub repo: jiasir/dnsmasq.
-
+A docerized dnsmasq. The automated build repo: https://registry.hub.docker.com/u/spops/dnsmasq/
 ### How to use?
 * Clone the code.
 ```
@@ -17,7 +16,7 @@ docker run -d -p 53:53 -p 53:53/udp spops/docker-dnsmasq:0.0.1
 ```
 * Or using Docker Hub.
 ```
-docker run -d -p 53:53 -p 53:53/udp jiasir/dnsmasq
+docker run -d -p 53:53 -p 53:53/udp spops/dnsmasq
 ```
 * Using another container to change the DNS records and reload the process.
 ```
